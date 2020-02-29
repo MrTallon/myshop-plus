@@ -15,6 +15,8 @@
     <url>http://www.funtl.com</url>
     <modules>
         <module>dependencies</module>
+        <module>provider</module>
+        <module>business</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
