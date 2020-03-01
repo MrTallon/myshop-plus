@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 /**
  * 用户注册
  * <p>
@@ -18,8 +19,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "reg")
 public class RegController {
+
     @Reference(version = "1.0.0")
     private UmsAdminService umsAdminService;
+
     /**
      * 用户注册
      *
@@ -40,8 +43,10 @@ public class RegController {
         }
         return new ResponseResult<UmsAdmin>(HttpStatus.NOT_ACCEPTABLE.value(), message != null ? message : "新用户注册失败");
     }
+
     /**
      * 验证注册信息
+     *
      * @param umsAdmin {@link UmsAdmin}
      * @return 错误信息
      */
