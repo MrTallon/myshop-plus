@@ -12,4 +12,7 @@ public interface UmsAdminService {
      * @return
      */
     int insert(UmsAdmin admin);
+
+    UmsAdmin get(String name);
+
 }

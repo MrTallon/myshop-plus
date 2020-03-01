@@ -11,4 +11,9 @@ public class UmsAdminServiceImpl implements UmsAdminService {
         return 1;
     }
 
+    @Override
+    public UmsAdmin get(String name) {
+        return null;
+    }
+
 }

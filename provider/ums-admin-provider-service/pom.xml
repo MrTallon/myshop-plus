@@ -123,6 +123,11 @@
             <artifactId>ums-admin-provider-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.funtl.myshop.plus</groupId>
+            <artifactId>business-oauth2</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
         <!-- Projects End -->
     </dependencies>
     <build>
